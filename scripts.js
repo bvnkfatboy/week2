@@ -25,12 +25,13 @@ function slide() {
 
 // example4
 function hide(){
-    document.getElementById("mycat").style.display = "none";
-    document.getElementById("text").style.display = "block";
+    document.getElementById("mytable").style.display = "none";
+    document.getElementById("headtexttable").style.display = "none";
 }
 function show(){
-    document.getElementById("mycat").style.display = "block";
-    document.getElementById("text").style.display = "none";
+    document.getElementById("mytable").style.display = "block";
+    document.getElementById("headtexttable").style.display = "block";
+
 }
 
 // example5

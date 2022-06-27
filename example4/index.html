@@ -11,16 +11,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles.css">
+
+
 </head>
 
 <body>
     <div class="index-body">
         <div class="index-example4">
-            <img src="cat.jpg" width="300px" id="mycat">
-            <p id="text" style="display:none ;">หายตัวววว</p>
+
+            <table class="mytable" id="mytable">
+                <p id="headtexttable">ตารางสินค้า</p>
+                <tr class="headtable">
+                    <td>รายการที่ 1</td>
+                    <td>รายการที่ 2</td>
+                    <td>รายการที่ 3</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>16</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td>64</td>
+                    <td>128</td>
+                    <td>256</td>
+                </tr>
+            </table>
             <br>
-            <button onclick="hide();">ซ่อนภาพ</button>
-            <button onclick="show();">โชว์ภาพ</button>
+            <button class="btntable" onclick="show();">แสดงตาราง</button>
+            <button class="btntable" onclick="hide();">ซ่อนตาราง</button>
             <br>
             <br>
             <a href="../">กลับหน้าแรก</a>
