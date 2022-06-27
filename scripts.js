@@ -40,5 +40,5 @@ function example5(){
     var result1 = (parseInt(num1)+ parseInt(num2)+parseInt(num3))/3;
     var result2 = Math.max(num1,num2,num3);
     var result3 = Math.min(num1,num2,num3);
-    alert("ค่าเฉลี่ย: "+result1+"\nค่าต่ำสุด: "+result2+"\nค่าต่ำสุด:"+result3 );
+    alert("ค่าเฉลี่ย: "+result1+"\nค่าสูงสุด: "+result2+"\nค่าต่ำสุด:"+result3 );
 }
