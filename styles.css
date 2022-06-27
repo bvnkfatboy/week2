@@ -44,6 +44,7 @@ body {
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+    padding: 5px;
 }
 table {
     border: 1px solid transparent;
