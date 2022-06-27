@@ -41,10 +41,15 @@ body {
 .mytable,#headtexttable {
     display: none;
 }
-table,th,td{
+table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-    padding: 5px;
+}
+table {
+    border: 1px solid transparent;
+}
+caption{
+    margin-bottom: 10px;
 }
 .headtable{
     background-color: khaki;

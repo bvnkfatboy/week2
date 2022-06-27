@@ -26,11 +26,9 @@ function slide() {
 // example4
 function hide(){
     document.getElementById("mytable").style.display = "none";
-    document.getElementById("headtexttable").style.display = "none";
 }
 function show(){
     document.getElementById("mytable").style.display = "block";
-    document.getElementById("headtexttable").style.display = "block";
 
 }
 
