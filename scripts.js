@@ -35,10 +35,11 @@ function show(){
 
 // example5
 function example5(){
-    num1 = document.getElementById("input1").value;
-    num2 = document.getElementById("input2").value;
-    num3 = document.getElementById("input3").value;
-    var result1 = Math.max(num1,num2,num3);
-    var result2 = Math.min(num1,num2,num3);
-    alert("ค่าสูงสุด: "+result1+"\nค่าต่ำสุด: "+result2);
+    let num1 = document.getElementById("input1").value;
+    let num2 = document.getElementById("input2").value;
+    let num3 = document.getElementById("input3").value;
+    var result1 = (parseInt(num1)+ parseInt(num2)+parseInt(num3))/3;
+    var result2 = Math.max(num1,num2,num3);
+    var result3 = Math.min(num1,num2,num3);
+    alert("ค่าเฉลี่ย: "+result1+"\nค่าต่ำสุด: "+result2+"\nค่าต่ำสุด:"+result3 );
 }
