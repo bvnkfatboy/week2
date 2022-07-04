@@ -56,6 +56,6 @@ caption{
     background-color: khaki;
 }
 
-.btntable{
+.btntable,.mytable tr ,.mytable td{
     font-family: 'Sarabun', sans-serif;
 }
